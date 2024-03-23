@@ -1,5 +1,5 @@
-import { GoogleTagManager } from '@next/third-parties/google';
 import { Inter } from 'next/font/google';
+
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/footer';
@@ -9,13 +9,16 @@ import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Portfolio of Abu Said',
-  description: 'This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
+  title: 'Luva.Hua 的个人简历',
+  description: '这是 Luva.Hua 的个人简历. 我是一名全栈开发者. 我喜欢学习新的事物，我喜欢和别人合作.',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="zh-cn">
+      <head>
+        <script async src="http://74.120.173.186:9002/tracker.js" data-ackee-server="http://74.120.173.186:9002" data-ackee-domain-id="b85b88ef-7fb6-440a-89b2-ba0b4b6fa2bd"></script>
+      </head>
       <body className={inter.className}>
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
@@ -24,7 +27,6 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
   )
 };

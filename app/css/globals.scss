@@ -37,3 +37,50 @@ body {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
 }
+
+
+.about-me-section {
+  background: #f2f7f8;
+}
+
+.about-me-info ul {
+  list-style: none;
+}
+
+.about-me {
+  min-width: 550px;
+}
+
+/* ul,
+ol {
+  padding: 0;
+  margin: 0;
+} */
+
+.about-me-info ul {
+  list-style: none;
+}
+
+
+.about-me-info ul li {
+  font-size: 24px;
+  color: #808181;
+  margin-bottom: 15px;
+  height: 36px;
+}
+
+.about-me-info ul li span.title {
+  color: #40424a;
+  display: inline-block;
+  padding-right: 5px;
+  width: 101px;
+}
+
+.about-me-info ul li svg{
+  display: inline-block;
+  max-width: 24px;
+}
+
+.about-me-image {
+  padding: 2px;
+}

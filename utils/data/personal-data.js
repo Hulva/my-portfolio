@@ -1,9 +1,9 @@
 export const personalData = {
   name: "华滤",
-  profile: '/profile.jpg',
-  designation: "Software Developer",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
+  profile: 'profile.jpg',
+  designation: "Full Stack Software Developer",
+  email: 'lvsweet217@163.com',
+  phone: '+8615056351320',
   address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
   github: 'https://github.com/hulva',
   facebook: 'https://www.facebook.com/abusaid.riyaz/',
