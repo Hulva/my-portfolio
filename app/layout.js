@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="zh-cn">
       <head>
-        <script async src="http://74.120.173.186:9002/tracker.js" data-ackee-server="http://74.120.173.186:9002" data-ackee-domain-id="b85b88ef-7fb6-440a-89b2-ba0b4b6fa2bd"></script>
+        <script async src="https://74.120.173.186/ackee/tracker.js" data-ackee-server="https://74.120.173.186/ackee/" data-ackee-domain-id="3d8ff296-b274-42af-a190-4e90acfee9cd" data-ackee-opts='{ "ignoreLocalhost": true, "detailed": true }'></script>
       </head>
       <body className={inter.className}>
         <ToastContainer />

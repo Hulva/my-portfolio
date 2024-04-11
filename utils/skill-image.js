@@ -55,12 +55,27 @@ import spring from '/public/png/skills/spring.png';
 import springboot from '/public/png/skills/springboot.png';
 import springcloud from '/public/png/skills/springcloud.png';
 import visualstudio from '/public/svg/skills/Visual_Studio_2022.svg';
+import cassandra from '/public/svg/skills/cassandra.svg';
+import elasticsearch from '/public/svg/skills/elasticsearch.svg';
+import hive from '/public/svg/skills/hive.svg';
+import hbase from '/public/png/skills/hbase.png';
+import spark from '/public/svg/skills/spark.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
     case 'hadoop':
       return hadoop;
+    case 'hive':
+      return hive;
+    case 'hbase':
+      return hbase;
+    case 'cassandra':
+      return cassandra;
+    case 'elasticsearch':
+      return elasticsearch;
+    case 'spark':
+      return spark;
     case 'postman':
       return postman;
     case 'spring':

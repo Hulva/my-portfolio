@@ -4,6 +4,10 @@ export const skillsData = [
   'SpringBoot',
   'SpringCloud',
   'Hadoop',
+  'HBase',
+  'Hive',
+  'Spark',
+  'Elasticsearch',
   'Git',
   'Jenkins',
   'Nginx',
@@ -35,6 +39,11 @@ export const skillsData = [
 // AVAILABLE SKILLS
 
 /* 
+  Hadoop
+  HBase
+  Hive
+  Spark
+  Elasticsearch
   HTML
   CSS
   JS 
